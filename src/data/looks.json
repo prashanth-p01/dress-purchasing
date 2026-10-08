@@ -1,0 +1,144 @@
+[
+  {
+    "id": "look-01",
+    "number": "01",
+    "total": "05",
+    "title": "The Raw Weaver's Silhouette",
+    "caption": "Handspun Chanderi Overlay paired with crushed Habotai silk trousers in warm sandstone.",
+    "season": "Autumn / Earth Monsoons",
+    "bgColor": "#F5EFE6",
+    "textColor": "#1E1B18",
+    "accentColor": "#6B4F3A",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=85",
+    "tags": [
+      {
+        "id": "p1",
+        "name": "Ahimsa Raw Silk Kurta",
+        "price": 6800,
+        "x": 48,
+        "y": 38,
+        "side": "right"
+      },
+      {
+        "id": "p4",
+        "name": "Terracotta Pleated Culottes",
+        "price": 3900,
+        "x": 52,
+        "y": 74,
+        "side": "left"
+      }
+    ]
+  },
+  {
+    "id": "look-02",
+    "number": "02",
+    "total": "05",
+    "title": "Minimalist Khadder Overcoat",
+    "caption": "Dense 320 GSM organic Kapas cotton structured for breezy twilight evenings in the city.",
+    "season": "Winter Solstice",
+    "bgColor": "#E6D9C5",
+    "textColor": "#1E1B18",
+    "accentColor": "#6B4F3A",
+    "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=1200&q=85",
+    "tags": [
+      {
+        "id": "p5",
+        "name": "Khadder Bandhgala Overshirt",
+        "price": 5900,
+        "x": 50,
+        "y": 42,
+        "side": "right"
+      },
+      {
+        "id": "p7",
+        "name": "Raw Linen Drawstring Trousers",
+        "price": 4600,
+        "x": 45,
+        "y": 78,
+        "side": "left"
+      }
+    ]
+  },
+  {
+    "id": "look-03",
+    "number": "03",
+    "total": "05",
+    "title": "Muted Sage Botanical Drape",
+    "caption": "Plant-dyed layering jacket with natural selvedge fringes, caught mid-motion.",
+    "season": "Spring Bloom",
+    "bgColor": "#8A9A82",
+    "textColor": "#F5EFE6",
+    "accentColor": "#E6D9C5",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=85",
+    "tags": [
+      {
+        "id": "p3",
+        "name": "Muted Sage Overlay Kimono",
+        "price": 4900,
+        "x": 47,
+        "y": 35,
+        "side": "left"
+      },
+      {
+        "id": "p9",
+        "name": "Hand-Cast Brass Choker",
+        "price": 2800,
+        "x": 53,
+        "y": 25,
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "id": "look-04",
+    "number": "04",
+    "total": "05",
+    "title": "Nocturnal Charcoal Angrakha",
+    "caption": "Double-cloth jacquard infused with oxidized natural iron rust solution.",
+    "season": "Midnight Festive",
+    "bgColor": "#1E1B18",
+    "textColor": "#F5EFE6",
+    "accentColor": "#E6D9C5",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=85",
+    "tags": [
+      {
+        "id": "p2",
+        "name": "Earthy Tiered Maxi Drape",
+        "price": 5400,
+        "x": 50,
+        "y": 50,
+        "side": "right"
+      },
+      {
+        "id": "p12",
+        "name": "Kashmir Pashmina Wrap",
+        "price": 9400,
+        "x": 42,
+        "y": 30,
+        "side": "left"
+      }
+    ]
+  },
+  {
+    "id": "look-05",
+    "number": "05",
+    "total": "05",
+    "title": "Zari Weft Chanderi Ensemble",
+    "caption": "Regal hand-loomed gold zari on lightweight gossamer weave for celebratory gatherings.",
+    "season": "Diwali & Festive Heirloom",
+    "bgColor": "#6B4F3A",
+    "textColor": "#F5EFE6",
+    "accentColor": "#E6D9C5",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
+    "tags": [
+      {
+        "id": "p8",
+        "name": "Chanderi Gold Motif Angrakha",
+        "price": 12400,
+        "x": 52,
+        "y": 45,
+        "side": "right"
+      }
+    ]
+  }
+]

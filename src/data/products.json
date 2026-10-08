@@ -1,0 +1,331 @@
+[
+  {
+    "id": "p1",
+    "name": "Ahimsa Raw Silk Kurta",
+    "category": "women",
+    "price": 6800,
+    "rating": 4.9,
+    "reviewsCount": 38,
+    "badge": "Signature",
+    "description": "Spun without harming silkworms, this raw silk kurta features subtle slub textures, natural selvedge hemline, and wooden buttons.",
+    "mannequinType": "top",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Sand Dune",
+        "hex": "#E6D9C5",
+        "front": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Sage Moss",
+        "hex": "#8A9A82",
+        "front": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Earthy Umber",
+        "hex": "#6B4F3A",
+        "front": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Earthy Tiered Maxi Drape",
+    "category": "women",
+    "price": 5400,
+    "rating": 4.8,
+    "reviewsCount": 54,
+    "badge": "Bestseller",
+    "description": "Effortless tiered gown in double-loomed unbleached cotton. Flattering gathered waist with deep pockets.",
+    "mannequinType": "top",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Cream Canvas",
+        "hex": "#F5EFE6",
+        "front": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Nocturnal Charcoal",
+        "hex": "#1E1B18",
+        "front": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Muted Sage Overlay Kimono",
+    "category": "women",
+    "price": 4900,
+    "rating": 5.0,
+    "reviewsCount": 21,
+    "badge": "New Drop",
+    "description": "An open front duster styled with wide Japanese sleeves, naturally hand-dyed with myrobalan and chlorophyll extracts.",
+    "mannequinType": "top",
+    "sizes": ["Free Size"],
+    "colors": [
+      {
+        "name": "Muted Sage",
+        "hex": "#8A9A82",
+        "front": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Oatmeal Beige",
+        "hex": "#E6D9C5",
+        "front": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Terracotta Pleated Culottes",
+    "category": "women",
+    "price": 3900,
+    "rating": 4.7,
+    "reviewsCount": 29,
+    "badge": "Organic Flax",
+    "description": "Wide-leg flared trousers woven from 100% Belgian organic flax with coconut shell buttons.",
+    "mannequinType": "bottom",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Earthy Umber",
+        "hex": "#6B4F3A",
+        "front": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Charcoal Black",
+        "hex": "#1E1B18",
+        "front": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p5",
+    "name": "Khadder Bandhgala Overshirt",
+    "category": "men",
+    "price": 5900,
+    "rating": 4.9,
+    "reviewsCount": 42,
+    "badge": "Handspun",
+    "description": "A refined Mandarin collar piece made on traditional foot-pedal pit looms in West Bengal.",
+    "mannequinType": "top",
+    "sizes": ["38", "40", "42", "44"],
+    "colors": [
+      {
+        "name": "Sand Dune",
+        "hex": "#E6D9C5",
+        "front": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Earthy Umber",
+        "hex": "#6B4F3A",
+        "front": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "Indigo Block-Print Camp Shirt",
+    "category": "men",
+    "price": 4200,
+    "rating": 4.8,
+    "reviewsCount": 67,
+    "badge": "Natural Indigo",
+    "description": "Geometric hand-block motifs dipped in 8-year aged organic fermentation vats.",
+    "mannequinType": "top",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {
+        "name": "Sage Moss",
+        "hex": "#8A9A82",
+        "front": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Charcoal Stone",
+        "hex": "#1E1B18",
+        "front": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p7",
+    "name": "Raw Linen Drawstring Trousers",
+    "category": "men",
+    "price": 4600,
+    "rating": 4.9,
+    "reviewsCount": 35,
+    "badge": "Comfort Fit",
+    "description": "Relaxed taper with elasticated drawcord waist, welt pockets, and reinforced saddle stitch.",
+    "mannequinType": "bottom",
+    "sizes": ["30", "32", "34", "36"],
+    "colors": [
+      {
+        "name": "Cream Canvas",
+        "hex": "#F5EFE6",
+        "front": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Charcoal Black",
+        "hex": "#1E1B18",
+        "front": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p8",
+    "name": "Chanderi Gold Motif Angrakha",
+    "category": "festive",
+    "price": 12400,
+    "rating": 5.0,
+    "reviewsCount": 18,
+    "badge": "Royal Heirloom",
+    "description": "Authentic Chanderi silk with hand-inserted silver & gold zari bootis. Flared asymmetrical overlap silhouette.",
+    "mannequinType": "top",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Dusk Ochre",
+        "hex": "#6B4F3A",
+        "front": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Sage Mist",
+        "hex": "#8A9A82",
+        "front": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p9",
+    "name": "Hand-Cast Brass Choker",
+    "category": "festive",
+    "price": 2800,
+    "rating": 4.9,
+    "reviewsCount": 22,
+    "badge": "Artisan Accessory",
+    "description": "Molten recycled brass sculpted into hammered torque arcs with raw matte finish.",
+    "mannequinType": "accessory",
+    "sizes": ["Adjustable"],
+    "colors": [
+      {
+        "name": "Hammered Gold",
+        "hex": "#E6D9C5",
+        "front": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p10",
+    "name": "Mini Mulmul Summer Frock",
+    "category": "kids",
+    "price": 2400,
+    "rating": 4.9,
+    "reviewsCount": 16,
+    "badge": "Baby Safe",
+    "description": "Double-layered featherweight muslin printed with food-grade non-toxic floral woodblocks.",
+    "mannequinType": "top",
+    "sizes": ["6-12M", "1-2Y", "3-4Y", "5-6Y"],
+    "colors": [
+      {
+        "name": "Cream Canvas",
+        "hex": "#F5EFE6",
+        "front": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Sage Moss",
+        "hex": "#8A9A82",
+        "front": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p11",
+    "name": "Woven Jute & Leather Tote",
+    "category": "women",
+    "price": 3600,
+    "rating": 4.8,
+    "reviewsCount": 44,
+    "badge": "Handcrafted",
+    "description": "Sturdy natural golden jute fiber braided with vegetable-tanned full-grain leather straps.",
+    "mannequinType": "accessory",
+    "sizes": ["Standard"],
+    "colors": [
+      {
+        "name": "Earthy Umber",
+        "hex": "#6B4F3A",
+        "front": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  {
+    "id": "p12",
+    "name": "Kashmir Pashmina Wrap",
+    "category": "festive",
+    "price": 9400,
+    "rating": 5.0,
+    "reviewsCount": 31,
+    "badge": "Pure Pashm",
+    "description": "Ultra-fine Changthangi goat underfleece spun on traditional takli spindles in Ladakh.",
+    "mannequinType": "accessory",
+    "sizes": ["200 x 70 cm"],
+    "colors": [
+      {
+        "name": "Sand Dune",
+        "hex": "#E6D9C5",
+        "front": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "name": "Charcoal Black",
+        "hex": "#1E1B18",
+        "front": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=800&q=80",
+        "back": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+        "model": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  }
+]

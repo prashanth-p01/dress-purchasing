@@ -1,0 +1,164 @@
+[
+  {
+    "id": "women",
+    "name": "Women",
+    "subtitle": "Raw Silks & Fluid Silhouettes",
+    "tag": "New Season",
+    "cover": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    "stories": [
+      {
+        "id": "w1",
+        "title": "Ahimsa Raw Silk Kurta",
+        "description": "Handspun cruelty-free silk infused with wild madder dye.",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹6,800",
+        "tag": "Signature",
+        "filterCategory": "women"
+      },
+      {
+        "id": "w2",
+        "title": "Earthy Tiered Maxi Drape",
+        "description": "Breathable hand-loomed organic cotton with hand-carved wood button accents.",
+        "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹5,400",
+        "tag": "Bestseller",
+        "filterCategory": "women"
+      },
+      {
+        "id": "w3",
+        "title": "Muted Sage Overlay Kimono",
+        "description": "Relaxed dropped shoulders dyed with natural plant extracts.",
+        "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹4,900",
+        "tag": "Organic",
+        "filterCategory": "women"
+      },
+      {
+        "id": "w4",
+        "title": "Terracotta Pleated Culottes",
+        "description": "Mid-rise relaxed fit with hidden side pockets and elasticated waist.",
+        "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹3,900",
+        "tag": "Essentials",
+        "filterCategory": "women"
+      }
+    ]
+  },
+  {
+    "id": "men",
+    "name": "Men",
+    "subtitle": "Kapas Linen & Structured Fits",
+    "tag": "Craftsman",
+    "cover": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+    "stories": [
+      {
+        "id": "m1",
+        "title": "Khadder Bandhgala Overshirt",
+        "description": "Heavyweight handspun cotton with minimalist horn buttons.",
+        "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹5,900",
+        "tag": "Artisanal",
+        "filterCategory": "men"
+      },
+      {
+        "id": "m2",
+        "title": "Indigo Block-Print Camp Shirt",
+        "description": "Hand-block stamped in Bagru with 100% fermented natural indigo.",
+        "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹4,200",
+        "tag": "Natural Indigo",
+        "filterCategory": "men"
+      },
+      {
+        "id": "m3",
+        "title": "Raw Linen Drawstring Trousers",
+        "description": "Tapered organic flax weave with comfortable relaxed fit.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹4,600",
+        "tag": "Everyday",
+        "filterCategory": "men"
+      },
+      {
+        "id": "m4",
+        "title": "Handwoven Merino Wool Vest",
+        "description": "Zero-waste sleeveless layer spun in Himachal artisan clusters.",
+        "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹7,200",
+        "tag": "Warmth",
+        "filterCategory": "men"
+      }
+    ]
+  },
+  {
+    "id": "festive",
+    "name": "Festive",
+    "subtitle": "Zari Weft & Royal Chanderi",
+    "tag": "Limited Edition",
+    "cover": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+    "stories": [
+      {
+        "id": "f1",
+        "title": "Chanderi Gold Motif Angrakha",
+        "description": "Woven with subtle real metallic zari thread on sheer silk-cotton.",
+        "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹12,400",
+        "tag": "Heirloom",
+        "filterCategory": "festive"
+      },
+      {
+        "id": "f2",
+        "title": "Kashmiri Aari Embroidered Stole",
+        "description": "Fine wool shawl with micro flora needlecraft taking 40 days to embroider.",
+        "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹8,900",
+        "tag": "Heritage",
+        "filterCategory": "festive"
+      },
+      {
+        "id": "f3",
+        "title": "Dusk Ochre Brocade Kurta Set",
+        "description": "Rich textured drape with mother of pearl fastening and churidar pants.",
+        "image": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹14,500",
+        "tag": "Festive Luxe",
+        "filterCategory": "festive"
+      }
+    ]
+  },
+  {
+    "id": "kids",
+    "name": "Kids & Minis",
+    "subtitle": "Hypoallergenic Cloud Cotton",
+    "tag": "Gentle Wear",
+    "cover": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80",
+    "stories": [
+      {
+        "id": "k1",
+        "title": "Mini Mulmul Summer Frock",
+        "description": "Ultra-soft unbleached muslin dyed with marigold petals.",
+        "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹2,400",
+        "tag": "Pure Soft",
+        "filterCategory": "kids"
+      },
+      {
+        "id": "k2",
+        "title": "Little Weaver Cotton Kurta & Pajama",
+        "description": "Easy stretch neck with tagless seamless finish for delicate skin.",
+        "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹2,600",
+        "tag": "Gentle Touch",
+        "filterCategory": "kids"
+      },
+      {
+        "id": "k3",
+        "title": "Organic Terry Romper",
+        "description": "Snug fit made from 100% GOTS certified regenerative cotton.",
+        "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=900&h=1600&q=80",
+        "price": "₹1,950",
+        "tag": "GOTS Certified",
+        "filterCategory": "kids"
+      }
+    ]
+  }
+]

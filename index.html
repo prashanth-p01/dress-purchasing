@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAANIKA — Handcrafted Earthwear & Artisanal Silhouettes</title>
+    <meta
+      name="description"
+      content="Conscious Craft · Timeless Drape · Pure Earth. Luxury handspun silks, organic cottons, and sustainable Indian textiles."
+    />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- 0. PRELOADER -->
+    <div class="preloader" id="preloader" aria-hidden="false">
+      <div class="preloader-content">
+        <svg class="preloader-logo-svg" viewBox="0 0 400 120">
+          <text
+            x="50%"
+            y="65%"
+            dominant-baseline="middle"
+            text-anchor="middle"
+            font-family="'Playfair Display', serif"
+            font-size="52"
+            font-weight="600"
+            letter-spacing="12"
+          >
+            VAANIKA
+          </text>
+        </svg>
+        <div class="preloader-tagline">Conscious Craft · Pure Earth</div>
+        <div class="preloader-bar-wrap">
+          <div class="preloader-bar"></div>
+        </div>
+        <div class="preloader-counter">0%</div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND PARTICLES CANVAS -->
+    <canvas id="season-particles-canvas" aria-hidden="true"></canvas>
+
+    <!-- STICKY SITE HEADER -->
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <!-- Left: Navigation Links -->
+        <div class="header-left">
+          <nav class="nav-links" aria-label="Main Navigation">
+            <a href="#lookbook" class="nav-link">Lookbook</a>
+            <a href="#stories" class="nav-link">Stories</a>
+            <a href="#products" class="nav-link">Collection</a>
+            <a href="#mixmatch" class="nav-link">Atelier Studio</a>
+          </nav>
+        </div>
+
+        <!-- Center: Brand Logo -->
+        <a href="#" class="brand-logo" aria-label="VAANIKA Home">VAANIKA</a>
+
+        <!-- Right: Season Switcher & Actions -->
+        <div class="header-right">
+          <!-- Seasonal Switcher Pill -->
+          <div class="season-switcher" role="group" aria-label="Select Seasonal Theme">
+            <button class="season-btn" data-season="spring" aria-label="Spring theme">Spring</button>
+            <button class="season-btn" data-season="summer" aria-label="Summer theme">Summer</button>
+            <button class="season-btn active" data-season="autumn" aria-label="Autumn theme">Autumn</button>
+            <button class="season-btn" data-season="winter" aria-label="Winter theme">Winter</button>
+          </div>
+
+          <div class="header-actions">
+            <!-- Size Guide Trigger -->
+            <button class="icon-btn size-guide-toggle-btn" aria-label="Open Size Guide" title="Size Guide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3c-1 1-2.5 1-3.4 0l-2.6-2.6c-1-1-1-2.5 0-3.4L15.3 2.7c1-1 2.5-1 3.4 0l2.6 2.6c1 1 1 2.5 0 3.4Z"></path>
+                <path d="m14.5 3.5 2 2"></path>
+                <path d="m11.5 6.5 2 2"></path>
+                <path d="m8.5 9.5 2 2"></path>
+                <path d="m5.5 12.5 2 2"></path>
+              </svg>
+            </button>
+
+            <!-- Cart Drawer Trigger -->
+            <button class="icon-btn cart-toggle-btn" aria-label="Open Shopping Bag" title="Shopping Bag">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span class="cart-badge">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- 1. SCROLL-DRIVEN HERO VIDEO (wool to shirt pinned 400vh) -->
+      <section class="hero-scroll-section" id="hero" aria-label="Craft Journey Hero">
+        <div class="hero-video-container">
+          <video
+            class="hero-video"
+            playsinline
+            muted
+            preload="auto"
+            poster="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1920&q=80"
+          ></video>
+          <canvas class="hero-fallback-canvas" style="display: none;"></canvas>
+          <div class="hero-gradient-overlay"></div>
+        </div>
+
+        <div class="hero-content-layer">
+          <!-- Phase 0: 0% - 25% -->
+          <div class="hero-narrative-overlay" data-phase="0">
+            <span class="hero-narrative-phase">Origin & Harvest</span>
+            <h1 class="hero-narrative-title">From the Fleece</h1>
+            <p class="hero-narrative-subtitle">Pure Himalayan wool and hand-picked organic kapas cotton gathered with reverence.</p>
+          </div>
+
+          <!-- Phase 1: 25% - 50% -->
+          <div class="hero-narrative-overlay" data-phase="1">
+            <span class="hero-narrative-phase">Spinning & Spindle</span>
+            <h2 class="hero-narrative-title">To the Thread</h2>
+            <p class="hero-narrative-subtitle">Hand-drawn on heritage wooden spindles, preserving every raw organic slub.</p>
+          </div>
+
+          <!-- Phase 2: 50% - 75% -->
+          <div class="hero-narrative-overlay" data-phase="2">
+            <span class="hero-narrative-phase">Loom & Weft</span>
+            <h2 class="hero-narrative-title">To the Fabric</h2>
+            <p class="hero-narrative-subtitle">Rhythmically woven on foot-pedal pit looms, kissed with wild root dyes.</p>
+          </div>
+
+          <!-- Phase 3: 75% - 100% -->
+          <div class="hero-narrative-overlay" data-phase="3">
+            <span class="hero-narrative-phase">The Modern Silhouette</span>
+            <h2 class="hero-narrative-title">To the Shirt</h2>
+            <p class="hero-narrative-subtitle">Tailored for effortless elegance, breathing naturally with your skin.</p>
+          </div>
+        </div>
+
+        <div class="hero-scroll-indicator" aria-hidden="true">
+          <span>Scroll</span>
+          <div class="hero-scroll-line"></div>
+        </div>
+
+        <div class="hero-progress-bar-wrap" aria-hidden="true">
+          <div class="hero-progress-bar"></div>
+        </div>
+      </section>
+
+      <!-- 2. FLOATING-FABRIC BRAND REVEAL (Three.js WebGL) -->
+      <section class="fabric-reveal-section" id="fabric" aria-label="Brand Philosophy">
+        <canvas id="fabric-webgl-canvas" aria-hidden="true"></canvas>
+        <div class="fabric-brand-content">
+          <div class="fabric-brand-kicker">Atelier Collection · 2026</div>
+          <h2 class="fabric-brand-title">VAANIKA</h2>
+          <p class="fabric-brand-tagline">"We do not make garments to disguise the body, but to celebrate the quiet poetry of living earth."</p>
+          <a href="#products" class="btn btn-primary">Shop the Collection</a>
+        </div>
+      </section>
+
+      <!-- 3. KINETIC TYPOGRAPHY MARQUEE -->
+      <section class="marquee-section" aria-hidden="true">
+        <div class="marquee-row marquee-row-forward">
+          <div class="marquee-inner">
+            <div class="marquee-item">NEW DROP · HANDWOVEN SILK · SUSTAINABLE LUXURY · FREE SHIPPING IN INDIA · LIMITED RUNS ·</div>
+            <div class="marquee-item">NEW DROP · HANDWOVEN SILK · SUSTAINABLE LUXURY · FREE SHIPPING IN INDIA · LIMITED RUNS ·</div>
+          </div>
+        </div>
+        <div class="marquee-row marquee-row-reverse">
+          <div class="marquee-inner">
+            <div class="marquee-item">CHANDERI ZARI · ZERO WASTE · ORGANIC FLAX · ARTISANAL WEAVE · BOTANICAL DYES ·</div>
+            <div class="marquee-item">CHANDERI ZARI · ZERO WASTE · ORGANIC FLAX · ARTISANAL WEAVE · BOTANICAL DYES ·</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. STORY-STYLE CATEGORIES -->
+      <section class="stories-section" id="stories">
+        <div class="container" style="text-align: center;">
+          <span class="section-tag">Curated Stories</span>
+          <h2 class="section-title">Explore by Chapter</h2>
+          <p class="section-desc" style="margin: 0 auto;">Tap any circle to view visual stories, artisanal insights, and shop curated silhouettes.</p>
+          <div class="stories-bubbles-container"></div>
+        </div>
+      </section>
+
+      <!-- 5. SCROLL-DRIVEN LOOKBOOK -->
+      <section class="lookbook-section" id="lookbook" aria-label="Editorial Lookbook">
+        <div class="lookbook-viewport"></div>
+      </section>
+
+      <!-- 6. COLOR-SWAP PRODUCT CARDS -->
+      <section class="products-section" id="products">
+        <div class="container">
+          <div style="text-align: center;">
+            <span class="section-tag">The Wardrobe</span>
+            <h2 class="section-title">Artisanal Silhouettes</h2>
+            <p class="section-desc" style="margin: 0 auto;">Click swatches to swap colorways. Hover or tilt in 3D to explore the drape.</p>
+          </div>
+
+          <!-- Category Filter Chips -->
+          <div class="products-filter-bar" role="tablist" aria-label="Filter products by category">
+            <button class="filter-chip active" data-category="all" role="tab">All Pieces</button>
+            <button class="filter-chip" data-category="women" role="tab">Women</button>
+            <button class="filter-chip" data-category="men" role="tab">Men</button>
+            <button class="filter-chip" data-category="festive" role="tab">Festive & Zari</button>
+            <button class="filter-chip" data-category="kids" role="tab">Kids & Minis</button>
+          </div>
+
+          <!-- Products Grid -->
+          <div class="products-grid"></div>
+        </div>
+      </section>
+
+      <!-- 7. MIX & MATCH MANNEQUIN ATELIER -->
+      <section class="mixmatch-section" id="mixmatch">
+        <div class="container">
+          <div style="text-align: center;">
+            <span class="section-tag">Interactive Atelier</span>
+            <h2 class="section-title">Mix & Match Styling Studio</h2>
+            <p class="section-desc" style="margin: 0 auto;">Drag or tap tops, bottoms, and heirloom accessories onto the mannequin to assemble your custom ensemble.</p>
+          </div>
+
+          <div class="mixmatch-workspace">
+            <!-- Left: Mannequin Stage -->
+            <div class="mannequin-stage" aria-label="Mannequin display stage">
+              <svg class="mannequin-base-svg" viewBox="0 0 100 200" fill="currentColor">
+                <circle cx="50" cy="20" r="12" />
+                <path d="M35,36 Q50,42 65,36 L70,85 Q50,90 30,85 Z" />
+                <path d="M32,92 L68,92 L75,180 L52,180 L50,115 L48,180 L25,180 Z" />
+              </svg>
+
+              <div class="mannequin-slot top-slot" aria-label="Equipped top"></div>
+              <div class="mannequin-slot bottom-slot" aria-label="Equipped bottom"></div>
+              <div class="mannequin-slot accessory-slot" aria-label="Equipped accessory"></div>
+            </div>
+
+            <!-- Right: Interactive Wardrobe Tiles & Live Summary -->
+            <div class="mixmatch-controls-panel">
+              <div class="drag-tiles-group">
+                <div class="drag-category-title">
+                  <span>1. Layer & Tops</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-body);">Drag or Tap</span>
+                </div>
+                <div class="drag-tiles-row tops-row"></div>
+              </div>
+
+              <div class="drag-tiles-group">
+                <div class="drag-category-title">
+                  <span>2. Bottoms & Drapes</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-body);">Drag or Tap</span>
+                </div>
+                <div class="drag-tiles-row bottoms-row"></div>
+              </div>
+
+              <div class="drag-tiles-group">
+                <div class="drag-category-title">
+                  <span>3. Heirloom Accents</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-body);">Drag or Tap</span>
+                </div>
+                <div class="drag-tiles-row accs-row"></div>
+              </div>
+
+              <!-- Live Total & Ensemble Controls -->
+              <div class="mixmatch-summary-bar">
+                <div>
+                  <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Ensemble Total</div>
+                  <div class="mixmatch-total-price">₹0</div>
+                </div>
+
+                <div class="mixmatch-action-btns">
+                  <button class="btn btn-secondary btn-shuffle-outfit" title="Randomize look">Shuffle</button>
+                  <button class="btn btn-secondary btn-clear-outfit" title="Clear mannequin">Clear</button>
+                  <button class="btn btn-primary btn-add-outfit">Add Full Outfit to Bag</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-marquee-strip" aria-hidden="true">
+        <div class="marquee-inner">
+          <span style="font-family: var(--font-kinetic); font-size: 1.5rem; letter-spacing: 0.1em; padding: 0 2rem;">
+            VAANIKA ATELIER · RESPONSIBLE LUXURY · 100% NATURAL FIBERS · HANDCRAFTED IN INDIA · WORLDWIDE SHIPPING
+          </span>
+          <span style="font-family: var(--font-kinetic); font-size: 1.5rem; letter-spacing: 0.1em; padding: 0 2rem;">
+            VAANIKA ATELIER · RESPONSIBLE LUXURY · 100% NATURAL FIBERS · HANDCRAFTED IN INDIA · WORLDWIDE SHIPPING
+          </span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3 class="footer-brand-title">VAANIKA</h3>
+            <p style="color: rgba(245, 239, 230, 0.7); max-width: 320px; font-size: 0.9rem;">
+              Handcrafted earthwear born from slow looms and time-honored artisanal traditions across Rajasthan, Bengal, and Kashmir.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Atelier</h4>
+            <ul class="footer-links">
+              <li><a href="#lookbook" class="footer-link">Seasonal Lookbook</a></li>
+              <li><a href="#products" class="footer-link">Raw Silks & Kurta</a></li>
+              <li><a href="#products" class="footer-link">Organic Kapas Cotton</a></li>
+              <li><a href="#mixmatch" class="footer-link">Virtual Styling Studio</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Client Care</h4>
+            <ul class="footer-links">
+              <li><a href="#" class="footer-link size-guide-toggle-btn">Bespoke Size Guide</a></li>
+              <li><a href="#" class="footer-link">Care & Natural Wash</a></li>
+              <li><a href="#" class="footer-link">Complimentary Alterations</a></li>
+              <li><a href="#" class="footer-link">Artisan Cluster Map</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">The Vaanika Journal</h4>
+            <p style="color: rgba(245, 239, 230, 0.7); font-size: 0.85rem;">
+              Receive quiet notes on new season harvests, natural dye seasons, and limited drops.
+            </p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" class="newsletter-input" required aria-label="Your email address" />
+              <button type="submit" class="btn btn-outline-light" style="padding: 0.75rem 1.25rem; font-size: 0.75rem;">Join</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 VAANIKA Atelier Ltd. All rights reserved. Handcrafted with reverence.</div>
+          <div style="display: flex; gap: 1.5rem;">
+            <a href="#" class="footer-link" style="font-size: 0.82rem;">Privacy</a>
+            <a href="#" class="footer-link" style="font-size: 0.82rem;">Terms</a>
+            <a href="#" class="footer-link" style="font-size: 0.82rem;">Sustainability Index</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- DRAWERS & OVERLAYS -->
+    <!-- Drawer Backdrop -->
+    <div class="drawer-backdrop" aria-hidden="true"></div>
+
+    <!-- Slide-in Cart Drawer -->
+    <aside class="drawer" id="cart-drawer" aria-labelledby="cart-drawer-title" aria-hidden="true">
+      <div class="drawer-header">
+        <h3 class="drawer-title" id="cart-drawer-title">Your Bag</h3>
+        <button class="drawer-close cart-drawer-close" aria-label="Close bag">✕</button>
+      </div>
+      <div class="drawer-body">
+        <div class="cart-items-list"></div>
+      </div>
+      <div class="drawer-footer">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+          <span style="font-size: 0.9rem; color: var(--text-muted);">Subtotal (incl. GST)</span>
+          <span class="cart-subtotal-val" style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 600;">₹0</span>
+        </div>
+        <button class="btn btn-primary cart-checkout-btn" style="width: 100%;">
+          Proceed to Checkout
+        </button>
+        <div style="text-align: center; margin-top: 0.75rem; font-size: 0.75rem; color: var(--text-muted);">
+          Free express insured shipping across India
+        </div>
+      </div>
+    </aside>
+
+    <!-- Slide-in Size Guide Drawer -->
+    <aside class="drawer" id="size-guide-drawer" aria-labelledby="size-guide-title" aria-hidden="true">
+      <div class="drawer-header">
+        <h3 class="drawer-title" id="size-guide-title">Bespoke Size Guide</h3>
+        <button class="drawer-close size-guide-close" aria-label="Close size guide">✕</button>
+      </div>
+      <div class="drawer-body">
+        <p style="margin-bottom: 1.5rem; font-size: 0.88rem;">
+          Our silhouettes are crafted with relaxed, fluid draping. All measurements below are listed in inches.
+        </p>
+
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.85rem; margin-bottom: 2rem;">
+          <thead>
+            <tr style="border-bottom: 1px solid var(--border-strong);">
+              <th style="padding: 8px 4px;">Size</th>
+              <th style="padding: 8px 4px;">Chest</th>
+              <th style="padding: 8px 4px;">Waist</th>
+              <th style="padding: 8px 4px;">Hip</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-subtle);"><td style="padding: 8px 4px; font-weight: 600;">XS</td><td style="padding: 8px 4px;">32 - 34"</td><td style="padding: 8px 4px;">26 - 28"</td><td style="padding: 8px 4px;">35 - 37"</td></tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);"><td style="padding: 8px 4px; font-weight: 600;">S</td><td style="padding: 8px 4px;">35 - 37"</td><td style="padding: 8px 4px;">29 - 31"</td><td style="padding: 8px 4px;">38 - 40"</td></tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);"><td style="padding: 8px 4px; font-weight: 600;">M</td><td style="padding: 8px 4px;">38 - 40"</td><td style="padding: 8px 4px;">32 - 34"</td><td style="padding: 8px 4px;">41 - 43"</td></tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);"><td style="padding: 8px 4px; font-weight: 600;">L</td><td style="padding: 8px 4px;">41 - 43"</td><td style="padding: 8px 4px;">35 - 37"</td><td style="padding: 8px 4px;">44 - 46"</td></tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);"><td style="padding: 8px 4px; font-weight: 600;">XL</td><td style="padding: 8px 4px;">44 - 46"</td><td style="padding: 8px 4px;">38 - 40"</td><td style="padding: 8px 4px;">47 - 49"</td></tr>
+          </tbody>
+        </table>
+
+        <div style="background: var(--bg-card); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+          <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Custom Tailoring?</h4>
+          <p style="font-size: 0.82rem; margin: 0;">We offer complimentary custom height and sleeve adjustments. Mention your preferred lengths in order notes.</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- FULLSCREEN STORY VIEWER MODAL (Swiper) -->
+    <div class="story-overlay" id="story-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="story-modal-container">
+        <!-- Progress Bars -->
+        <div class="story-progress-bar-group"></div>
+
+        <!-- Header -->
+        <div class="story-header-bar">
+          <div class="story-author">
+            <img src="" alt="" class="story-author-img" />
+            <span class="story-author-name" style="font-weight: 600; font-size: 0.9rem;"></span>
+          </div>
+          <button class="story-close-btn" aria-label="Close stories">✕</button>
+        </div>
+
+        <!-- Swiper Slides -->
+        <div class="swiper story-swiper" style="width: 100%; height: 100%;">
+          <div class="swiper-wrapper story-swiper-wrapper"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

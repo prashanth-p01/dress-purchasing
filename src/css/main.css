@@ -1,0 +1,10 @@
+/* Main Stylesheet Entry */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@import './variables.css';
+@import './base.css';
+@import './components.css';
+@import './sections.css';

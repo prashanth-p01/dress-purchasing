@@ -1,0 +1,90 @@
+{
+  "spring": {
+    "name": "Spring",
+    "months": [2, 3, 4],
+    "subtitle": "Petals & Fresh Wefts",
+    "vars": {
+      "--bg-primary": "#F4F0E8",
+      "--bg-secondary": "#EAE3D2",
+      "--accent": "#7A8F70",
+      "--accent-warm": "#D4A373",
+      "--accent-tint": "rgba(122, 143, 112, 0.12)",
+      "--text-primary": "#1E1B18",
+      "--text-muted": "#68645E"
+    },
+    "particles": {
+      "type": "petals",
+      "count": 36,
+      "mobileCount": 18,
+      "colors": ["#E8B4B8", "#F3C5C5", "#EED6D3", "#8A9A82"],
+      "speed": 0.8,
+      "size": { "min": 6, "max": 14 }
+    }
+  },
+  "summer": {
+    "name": "Summer",
+    "months": [5, 6, 7],
+    "subtitle": "Sun-Drenched Khadi",
+    "vars": {
+      "--bg-primary": "#FBF7F0",
+      "--bg-secondary": "#F3EBDD",
+      "--accent": "#C97A43",
+      "--accent-warm": "#E69A58",
+      "--accent-tint": "rgba(201, 122, 67, 0.12)",
+      "--text-primary": "#1E1B18",
+      "--text-muted": "#6E6860"
+    },
+    "particles": {
+      "type": "sunglow",
+      "count": 30,
+      "mobileCount": 15,
+      "colors": ["#FFD166", "#F4A261", "#FFF1D0", "#E76F51"],
+      "speed": 0.6,
+      "size": { "min": 3, "max": 8 }
+    }
+  },
+  "autumn": {
+    "name": "Autumn",
+    "months": [8, 9, 10],
+    "subtitle": "Earthy Silks & Ochre",
+    "vars": {
+      "--bg-primary": "#F5EFE6",
+      "--bg-secondary": "#E6D9C5",
+      "--accent": "#6B4F3A",
+      "--accent-warm": "#B46534",
+      "--accent-tint": "rgba(107, 79, 58, 0.14)",
+      "--text-primary": "#1E1B18",
+      "--text-muted": "#5A4E44"
+    },
+    "particles": {
+      "type": "leaves",
+      "count": 34,
+      "mobileCount": 16,
+      "colors": ["#C06C42", "#8A5A36", "#DDA15E", "#BC6C25"],
+      "speed": 0.9,
+      "size": { "min": 8, "max": 16 }
+    }
+  },
+  "winter": {
+    "name": "Winter",
+    "months": [11, 0, 1],
+    "subtitle": "Pashmina & Quiet Hearth",
+    "vars": {
+      "--bg-primary": "#ECEBE6",
+      "--bg-secondary": "#DDD9D0",
+      "--accent": "#4A5568",
+      "--accent-warm": "#8C7A6B",
+      "--accent-tint": "rgba(74, 85, 104, 0.12)",
+      "--text-primary": "#161513",
+      "--text-muted": "#55524E"
+    },
+    "particles": {
+      "type": "snow",
+      "count": 40,
+      "mobileCount": 20,
+      "colors": ["#FFFFFF", "#E9ECEF", "#D8E2DC", "#F8F9FA"],
+      "speed": 0.7,
+      "size": { "min": 2, "max": 6 }
+    }
+  }
+}
